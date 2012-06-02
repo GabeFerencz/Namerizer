@@ -1,0 +1,5 @@
+I wrote this when my wife and I were trying to decide on a name for our baby. We wanted a common name that wasn't too common, if that makes any sense.  In other words, a name everyone's heard before, but not one they hear all the time. 
+
+ScrapeNameRankToCsv.py scrapes several years worth of popular name info from the social security website. It utilizes BeautifulSoup (http://www.crummy.com/software/BeautifulSoup/) for parsing the html. BeautifulSoup ended up being very fitting since we chose the name Alice.
+
+namerizer.py lets you check out the popularity of a name, list of names, or to get some random name ideas. I came up with a "uniqueness quotient" for the names, giving more weight to newer popular names. My thought process about the weight was to prioritize uniqueness to kids closer in age to our own.
